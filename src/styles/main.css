@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f8f9fa;
+}
+.nav {
+  background: #002f5f;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+}
+.nav a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.spacer {
+  flex: 1;
+}
+.logout-btn {
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+.centered-box {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.page {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  background: #0275d8;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn.sm {
+  padding: 0.3rem 0.6rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th,
+td {
+  border: 1px solid #dee2e6;
+  padding: 0.6rem;
+}
+.form-grid label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.note-form textarea {
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: 0.5rem;
+}
+.notes-list li {
+  margin-bottom: 0.5rem;
+}
+.patient-links li {
+  margin: 0.25rem 0;
+}
+.info {
+  font-size: 0.85rem;
+  color: #555;
+}
